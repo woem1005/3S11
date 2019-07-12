@@ -77,6 +77,11 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (SIPSOC-8
+      (FullPartName "SIPSOC-8.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\MECHANICAL.OLB")
+      (DeviceIndex "0"))
     (0
       (LibraryName
          "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -194,11 +199,6 @@
       (FullPartName "FMMD914/SOT.Normal")
       (LibraryName
          "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (F5D3/TO
-      (FullPartName "F5D3/TO.Normal")
-      (LibraryName
-         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
      "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library")
@@ -208,8 +208,7 @@
       (Path "Design Resources" "C:\Users\user\Desktop\ex1-4\ex1-4.dsn")
       (Path "Design Resources" "C:\Users\user\Desktop\ex1-4\ex1-4.dsn"
          "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources" "C:\Users\user\Desktop\ex1-4\ex1-4.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -220,8 +219,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 883 25 485")
-        (Scroll "392 576")
-        (Zoom "123")
+        (Scroll "188 0")
+        (Zoom "61")
         (Occurrence "/"))
       (Path "C:\USERS\USER\DESKTOP\EX1-4\EX1-4.DSN")
       (Schematic "SCHEMATIC1")

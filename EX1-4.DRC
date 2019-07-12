@@ -1,23 +1,23 @@
-Date and Time : 07/12/19 12:06:25
+Date and Time : 07/12/19 12:35:21
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
 --------------------------------------------------
 Checking Electrical Rules 
-ERROR(ORCAP-1628): Possible pin type conflict U2,OUT  Output Connected to Power
-                    SCHEMATIC1, PAGE1  (324.10, 14.22) 
-ERROR(ORCAP-1628): Possible pin type conflict U2,2  Output Connected to Output
+ERROR(ORCAP-1628): Possible pin type conflict U5,VCC  3 State Connected to Power
+                    SCHEMATIC1, PAGE1  (294.64, 206.50) 
+ERROR(ORCAP-1628): Possible pin type conflict U5,AVCC  3 State Connected to Power
+                    SCHEMATIC1, PAGE1  (294.64, 196.34) 
+ERROR(ORCAP-1628): Possible pin type conflict U2,2  Output Connected to 3 State
                     SCHEMATIC1, PAGE1  (324.10, 16.76) 
 ERROR(ORCAP-1628): Possible pin type conflict U2,2  Output Connected to Power
                     SCHEMATIC1, PAGE1  (324.10, 16.76) 
-ERROR(ORCAP-1628): Possible pin type conflict U5,VCC  3 State Connected to Output
-                    SCHEMATIC1, PAGE1  (294.64, 206.50) 
-ERROR(ORCAP-1628): Possible pin type conflict U5,VCC  3 State Connected to Power
-                    SCHEMATIC1, PAGE1  (294.64, 206.50) 
-ERROR(ORCAP-1628): Possible pin type conflict U5,AVCC  3 State Connected to Output
-                    SCHEMATIC1, PAGE1  (294.64, 196.34) 
-ERROR(ORCAP-1628): Possible pin type conflict U5,AVCC  3 State Connected to Power
-                    SCHEMATIC1, PAGE1  (294.64, 196.34) 
+ERROR(ORCAP-1628): Possible pin type conflict U2,OUT  Output Connected to Output
+                    SCHEMATIC1, PAGE1  (324.10, 14.22) 
+ERROR(ORCAP-1628): Possible pin type conflict U2,OUT  Output Connected to 3 State
+                    SCHEMATIC1, PAGE1  (324.10, 14.22) 
+ERROR(ORCAP-1628): Possible pin type conflict U2,OUT  Output Connected to Power
+                    SCHEMATIC1, PAGE1  (324.10, 14.22) 
 ERROR(ORCAP-1628): Possible pin type conflict IC1,VCC  3 State Connected to Output
                     SCHEMATIC1, PAGE1  (130.56, 175.51) 
 ERROR(ORCAP-1628): Possible pin type conflict IC1,VCC  3 State Connected to Power
@@ -47,7 +47,7 @@ WARNING(ORCAP-1608): Net has no driving source 5
 
 Checking For Single Node Nets
 WARNING(ORCAP-1600): Net has fewer than two connections AD4/SDA9 
-                    SCHEMATIC1, PAGE1  (393.19, 156.21) 
+                    SCHEMATIC1, PAGE1  (394.21, 156.21) 
 WARNING(ORCAP-1600): Net has fewer than two connections AD5/S01 
                     SCHEMATIC1, PAGE1  (393.19, 153.67) 
 WARNING(ORCAP-1600): Net has fewer than two connections AREF 
@@ -139,26 +139,26 @@ INFO(ORCAP-36101): Checking Missing PCB Footprint Property
 #46 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C9: SCHEMATIC1, PAGE1 (276.86, 210.31).
 #47 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance 10K2A: SCHEMATIC1, PAGE1 (57.40, 46.99).
 #48 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L2: SCHEMATIC1, PAGE1 (28.70, 195.58).
-#49 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, PAGE1 (314.96, 50.04).
+#49 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, PAGE1 (100.84, 98.30).
 #50 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP1: SCHEMATIC1, PAGE1 (200.66, 119.38).
 #51 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RX1: SCHEMATIC1, PAGE1 (216.41, 212.09).
-#52 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J2: SCHEMATIC1, PAGE1 (100.84, 98.30).
-#53 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Z1: SCHEMATIC1, PAGE1 (31.24, 162.56).
-#54 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance 10H1: SCHEMATIC1, PAGE1 (400.81, 151.13).
-#55 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW1: SCHEMATIC1, PAGE1 (262.89, 74.42).
-#56 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance PC1: SCHEMATIC1, PAGE1 (321.56, 28.96).
-#57 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TX1: SCHEMATIC1, PAGE1 (213.11, 200.15).
-#58 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y1: SCHEMATIC1, PAGE1 (103.63, 146.56).
-#59 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Z2: SCHEMATIC1, PAGE1 (46.48, 162.31).
-#60 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y2: SCHEMATIC1, PAGE1 (254.51, 175.77).
-#61 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance PC2: SCHEMATIC1, PAGE1 (267.97, 41.91).
-#62 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW2: SCHEMATIC1, PAGE1 (91.95, 215.90).
-#63 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance IOL1: SCHEMATIC1, PAGE1 (395.73, 211.58).
-#64 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RESEP-FN1: SCHEMATIC1, PAGE1 (232.16, 144.78).
-#65 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, PAGE1 (256.79, 28.96).
-#66 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance POWERSUPPL Y_DC21MMX1: SCHEMATIC1, PAGE1 (207.26, 16.51).
-#67 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1A: SCHEMATIC1, PAGE1 (146.56, 20.07).
-#68 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C10: SCHEMATIC1, PAGE1 (66.55, 216.15).
+#52 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Z1: SCHEMATIC1, PAGE1 (31.24, 162.56).
+#53 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance 10H1: SCHEMATIC1, PAGE1 (400.81, 151.13).
+#54 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW1: SCHEMATIC1, PAGE1 (262.89, 74.42).
+#55 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance PC1: SCHEMATIC1, PAGE1 (321.56, 28.96).
+#56 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TX1: SCHEMATIC1, PAGE1 (213.11, 200.15).
+#57 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y1: SCHEMATIC1, PAGE1 (103.63, 146.56).
+#58 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Z2: SCHEMATIC1, PAGE1 (46.48, 162.31).
+#59 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y2: SCHEMATIC1, PAGE1 (254.51, 175.77).
+#60 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance PC2: SCHEMATIC1, PAGE1 (267.97, 41.91).
+#61 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW2: SCHEMATIC1, PAGE1 (91.95, 215.90).
+#62 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance IOL1: SCHEMATIC1, PAGE1 (395.73, 211.58).
+#63 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RESEP-FN1: SCHEMATIC1, PAGE1 (232.16, 144.78).
+#64 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, PAGE1 (256.79, 28.96).
+#65 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance POWERSUPPL Y_DC21MMX1: SCHEMATIC1, PAGE1 (207.26, 16.51).
+#66 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1A: SCHEMATIC1, PAGE1 (146.56, 20.07).
+#67 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C10: SCHEMATIC1, PAGE1 (66.55, 216.15).
+#68 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance POWER1: SCHEMATIC1, PAGE1 (314.96, 50.04).
 #69 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance GREEN1: SCHEMATIC1, PAGE1 (385.32, 61.98).
 #70 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE1 (296.16, 11.68).
 #71 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D2: SCHEMATIC1, PAGE1 (91.95, 69.09).
@@ -172,8 +172,8 @@ INFO(ORCAP-2211): Check High Speed Properties Syntax
 INFO(ORCAP-2212): Check Power Ground Mismatch
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? 0  0  4  
                     SCHEMATIC1, PAGE1  (307.34, 65.28) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? +5V  VCC  +5V  8  
-                    SCHEMATIC1, PAGE1  (324.10, 14.22) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? +5V  +5V  VCC  8  
+                    SCHEMATIC1, PAGE1  (341.38, 56.13) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference
